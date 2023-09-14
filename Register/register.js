@@ -31,7 +31,8 @@ const registerBtnClickHandler = async () => {
   
     
     //   const redirectURL = `https://${window.location.hostname}/src/index.html`;
-    //   window.location.href = redirectURL;
+    const redirectURL ='https://niraj401patil.github.io/User_authentication/Login/login.html'
+    window.location.href = redirectURL;
     
   };
   
