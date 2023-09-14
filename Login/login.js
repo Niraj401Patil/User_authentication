@@ -34,7 +34,8 @@ const loginBtnClickHandler = async () => {
     if (data.token) {
       //use local storage
       localStorage.setItem("token", data.token);
-      const redirectURL = `https://${window.location.hostname}/Welcome/welcome.html`;
+      //const redirectURL = `https://${window.location.hostname}/Welcome/welcome.html`;
+      const redirectURL='https://niraj401patil.github.io/User_authentication/Welcome/welcome.html'
       window.location.href = redirectURL;
     }
   };
