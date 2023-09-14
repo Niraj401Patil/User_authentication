@@ -34,8 +34,8 @@ const loginBtnClickHandler = async () => {
     if (data.token) {
       //use local storage
       localStorage.setItem("token", data.token);
-      //const redirectURL = `https://${window.location.hostname}/Welcome/welcome.html`;
-      //window.location.href = redirectURL;
+      const redirectURL = `https://${window.location.hostname}/Welcome/welcome.html`;
+      window.location.href = redirectURL;
     }
   };
   
